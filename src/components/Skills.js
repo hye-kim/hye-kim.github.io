@@ -6,7 +6,7 @@ import SkillsTile from './SkillsTile'
 
 function Skills() {
   return (
-    <div id="skills" className="bg-gray-100">
+    <div id="skills" className="bg-gray-100 pb-20">
       <div className="flex flex-col items-center">
         <div className="pt-20 pb-10">
           <h2 className="text-4xl font-bold">SKILLS</h2>
