@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.root {
+  background-color: #ffffff;
+}
+
+.portfolio-tile{
+  background-color: #F6F6F6;
+}
