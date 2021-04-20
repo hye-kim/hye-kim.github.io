@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .root {
   background-color: #ffffff;
 }
 
-.portfolio-tile{
-  background-color: #F6F6F6;
+.portfolio-tile {
+  background-color: #f6f6f6;
+}
+
+#footer {
+  background-color: #2D2D2D;
 }
