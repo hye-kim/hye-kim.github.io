@@ -11,7 +11,7 @@ function Skills() {
         <div className="pt-20 pb-10">
           <h2 className="text-4xl font-bold">SKILLS</h2>
         </div>
-        <div className="flex flex-wrap justify-between px-4 sm:justify-center w-screen">
+        <div className="flex flex-wrap justify-evenly px-6 lg:px-4 lg:justify-evenly">
             <SkillsTile imageSrc={pythonLogo} skillName="Python" />
             <SkillsTile imageSrc={jsLogo} skillName="JavaScript" />
             <SkillsTile imageSrc={reactLogo} skillName="React" />

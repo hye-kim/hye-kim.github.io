@@ -7,7 +7,7 @@ function Portfolio() {
         <div className="pt-20 pb-5">
           <h2 className="text-4xl font-bold">PORTFOLIO</h2>
         </div>
-        <div className="flex flex-col sm:flex-row">
+        <div className="flex flex-col lg:flex-row">
           <PortfolioTile
             projectName="Veni Vidi Voravi"
             projectUrl="https://venividivoravi.herokuapp.com/"
