@@ -1,13 +1,22 @@
 import * as emailjs from "emailjs-com";
+import { useState } from "react";
 
 function Contact() {
+  const [submission, setSubmission] = useState("hidden");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "contact_form", "#contact-form", process.env.REACT_APP_USER_ID)
-    // alert('Message sent!')
-    // e.target.reset()
+    emailjs.sendForm(
+      process.env.REACT_APP_SERVICE_ID,
+      "contact_form",
+      "#contact-form",
+      process.env.REACT_APP_USER_ID
+    );
+
+    setSubmission("")
+
+    e.target.reset();
   };
 
   return (
@@ -18,6 +27,11 @@ function Contact() {
         </div>
         <div className="w-full sm:w-6/12 xl:w-5/12 px-12">
           <form id="contact-form" onSubmit={handleSubmit}>
+            <div className={`flex justify-center pb-4 text-blue-500 font-bold text-xl ${submission}`}>
+              <div>
+                <p>Message sent!</p>
+              </div>
+            </div>
             <div className="flex flex-col xl:flex-row">
               <div className="flex flex-col pb-4 xl:pr-4 flex-grow">
                 <label htmlFor="">First name</label>
@@ -72,7 +86,10 @@ function Contact() {
               ></textarea>
             </div>
             <div className="flex justify-center pt-4">
-              <button type="submit" className="bg-blue-700 text-white font-semibold py-2 px-8 rounded-sm">
+              <button
+                type="submit"
+                className="bg-blue-700 text-white font-semibold py-2 px-8 rounded-sm"
+              >
                 Send message
               </button>
             </div>
