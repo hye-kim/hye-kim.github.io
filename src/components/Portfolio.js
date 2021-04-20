@@ -12,7 +12,7 @@ function Portfolio() {
             projectName="Veni Vidi Voravi"
             projectUrl="https://venividivoravi.herokuapp.com/"
             projectPic="bg-project-pic-1"
-            projectDescription="description of project"
+            projectDescription="Veni Vidi Voravi is inspired by Medium and allows users to share and discover experiences from different culinary adventures. Users can browse, create, and edit their own stories, and leave comments or claps on other stories they found enjoyable."
             githubUrl="https://github.com/rsdimatulac/Veni-Vidi-Voravi"
           />
           <PortfolioTile
