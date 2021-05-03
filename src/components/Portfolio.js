@@ -16,11 +16,11 @@ function Portfolio() {
             githubUrl="https://github.com/rsdimatulac/Veni-Vidi-Voravi"
           />
           <PortfolioTile
-            projectName="Project name"
-            projectUrl=""
+            projectName="Muse"
+            projectUrl="https://aa-muse.herokuapp.com/"
             projectPic="bg-project-pic-2"
-            projectDescription="description of project"
-            githubUrl=""
+            projectDescription="Muse is a clone of Genius centered around poems. The site allows users to view poems, add annotations to lines that provide insight on what the poet might have been trying to convey, and add comments to poems for further discussion with other users."
+            githubUrl="https://github.com/hye-kim/muse-app"
           />
         </div>
       </div>
