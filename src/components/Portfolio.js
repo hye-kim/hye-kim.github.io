@@ -17,7 +17,7 @@ function Portfolio() {
           />
           <PortfolioTile
             projectName="Muse"
-            projectUrl="https://aa-muse.herokuapp.com/"
+            projectUrl="https://muse.hyekim.me/"
             projectPic="bg-project-pic-2"
             projectDescription="Muse is a clone of Genius centered around poems. The site allows users to view poems, add annotations to lines that provide insight on what the poet might have been trying to convey, and add comments to poems for further discussion with other users."
             githubUrl="https://github.com/hye-kim/muse-app"

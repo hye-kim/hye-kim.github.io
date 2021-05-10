@@ -7,7 +7,7 @@ function BrowserTile({ projectName, projectUrl, projectPic }) {
           <div className="bg-yellow-200 rounded-full h-3 w-3 mx-1"></div>
           <div className="bg-green-400 rounded-full h-3 w-3 mx-1"></div>
         </div>
-        <div className="bg-gray-200 rounded-md flex justify-center self-center ml-4 w-7/12 sm:ml-8">
+        <div className="bg-gray-200 rounded-md flex justify-center self-center ml-4 w-7/12 sm:ml-6">
           <p>{projectName}</p>
         </div>
       </div>
