@@ -1,6 +1,6 @@
 function ProjectInfo({ projectName, projectDescription, githubUrl }) {
   return (
-    <div className="flex flex-col items-center pt-36 px-4 bg-gray-100 border-gray-200 border">
+    <div className="flex flex-col items-center pt-36 px-4 bg-gray-100 border-gray-200 border project-description">
       <div>
         <h3 className="font-bold text-xl">{projectName}</h3>
       </div>

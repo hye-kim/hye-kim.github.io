@@ -22,6 +22,13 @@ function Portfolio() {
             projectDescription="Muse is a clone of Genius centered around poems. The site allows users to view poems, add annotations to lines that provide insight on what the poet might have been trying to convey, and add comments to poems for further discussion with other users."
             githubUrl="https://github.com/hye-kim/muse-app"
           />
+          <PortfolioTile
+            projectName="Harmony"
+            projectUrl="http://harmony-app-aa.herokuapp.com/"
+            projectPic="bg-project-pic-3"
+            projectDescription="Harmony is a real-time messaging application heavily inspired by Discord. The site allows users to create an account, join and create servers, and talk to others in real-time via channels in their joined servers."
+            githubUrl="https://github.com/danielshoun/harmony"
+          />
         </div>
       </div>
     </div>

@@ -10,10 +10,10 @@ body {
   background-color: #ffffff;
 }
 
-.portfolio-tile {
-  background-color: #f6f6f6;
+#footer {
+  background-color: #2d2d2d;
 }
 
-#footer {
-  background-color: #2D2D2D;
+.project-description {
+  height: calc(100% - 184px)
 }
